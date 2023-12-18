@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Antonio', sans-serif;
+    scroll-behavior: smooth;
+}
+
+div.main{
+    
+    width:100%;
+    height: 100vh;
+    
+}
+
+nav{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.leftnav{
+    font-size: 25px;
+    color: white;
+}
+.rightnav{
+    display: flex;
+    font-weight:200;
+    gap: 25px;
+    color: white;
+}
+.content{
+    color:white;
+    font-size: 85px; 
+    width: 90%;
+    margin: 0 auto;
+}
+.content div{
+    display: flex;
+}
+.bottom{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    justify-content: space-between;
+    transform: scale(1,1);
+}
+.content div span{
+    display: flex;
+    margin: 0 auto;
+}
+.content div video{
+    /* height: 150px; */
+    width: 270px;
+    margin: auto 20px;
+    border-radius: 100px;
+    
+}
+.ittu{
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.ittu p{
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.ittu img{
+    height: 40px;
+    
+}
+.content div h1{
+    
+    margin-top:-15px;
+    transform: scale(1,1.1);
+    color: white;
+    letter-spacing: 5px;
+    padding: 0;
+   
+}
+
+.pehlekebahar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.secondpage{
+    height: 190vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; 
+    inset: 0;
+}
+.hoverBox {
+    /* Additional box styles */
+    box-sizing: border-box; /* Include padding and border in box size */
+    border: 2px solid white; /* Add a border to visualize the boxes */
+    width: calc(100% / 16); /* 15 boxes in a row */
+    height: calc(100% / 14);
+    background-color: #8C24C5;
+    opacity: 0; /* Initial opacity */
+   
+}
+.secondcontent{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    
+}
+.secondcontent p{
+    
+    text-align: center;
+}
+.secondcontent p:nth-child(3){
+    font-size: 90px;
+    line-height: 100%;
+}
+
+.secondcontent p:nth-child(2){
+    font-size: 25px;
+    line-height: 110%;
+}
+.secondcontent p:nth-child(4){
+    font-size: 25px;
+    line-height: 110%;
+}
+
+.outcontainer{
+    overflow: hidden;
+    border-radius: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+}
+
+.tag-canvas{
+    width: 90%;
+    
+    height: 100%;
+  transform-origin: 0 0;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  overflow: hidden;
+  margin: 0 auto;
+  transform: scale(1);
+
+
+}
+.tag-element{
+    height: 500px;
+    width: 90%;
+}
+.skills-wrapper p{
+    padding-bottom: 100px;
+}
+
+.skills-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
